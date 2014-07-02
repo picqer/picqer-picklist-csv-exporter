@@ -1,0 +1,18 @@
+{
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casper Bakker",
+            "email": "info@picqer.com"
+        }
+    ],
+    "require": {
+        "picqer/api-client": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PicqerExporter\\": "PicqerExporter/"
+        }
+    }
+}
